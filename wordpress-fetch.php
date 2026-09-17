@@ -1,12 +1,13 @@
 <?php
 /**
  * Plugin Name:       WordPress Fetch
- * Plugin URI:        https://example.com/wordpress-fetch
+ * Plugin URI:        https://github.com/ildrm/wordpress-fetch
  * Description:       Secure feed syndication, transformation, editorial, SEO, and monitoring for WordPress.
  * Version:           1.0.0
  * Requires at least: 6.6
  * Requires PHP:      8.1
- * Author:            WordPress Fetch Contributors
+ * Author:            Shahin Ilderemi
+ * Author URI:        https://ildrm.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wordpress-fetch
