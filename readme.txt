@@ -1,5 +1,5 @@
 === WordPress Fetch ===
-Contributors: wordpress-fetch
+Contributors: ildrm
 Tags: rss, atom, feed, syndication, aggregator
 Requires at least: 6.6
 Tested up to: 6.9
