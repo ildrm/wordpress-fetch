@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Fetch">
+  <description>WordPress Core rules with PSR-4/camelCase exceptions for the namespaced domain model.</description>
+  <file>wordpress-fetch.php</file>
+  <file>uninstall.php</file>
+  <file>src</file>
+  <file>blocks/source-attribution/render.php</file>
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+  <rule ref="WordPress-Core">
+    <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+    <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+    <exclude name="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid"/>
+    <exclude name="WordPress.NamingConventions.ValidVariableName.VariableNotSnakeCase"/>
+    <exclude name="WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase"/>
+  </rule>
+</ruleset>

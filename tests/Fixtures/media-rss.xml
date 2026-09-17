@@ -1,0 +1,1 @@
+<?xml version="1.0"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Media</title><item><guid>media-1</guid><title>Photo</title><link>https://example.com/photo</link><description>Photo item</description><media:content url="https://cdn.example.com/photo.jpg" type="image/jpeg" width="1200" height="800"/></item></channel></rss>

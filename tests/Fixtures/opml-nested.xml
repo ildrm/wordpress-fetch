@@ -1,0 +1,1 @@
+<?xml version="1.0"?><opml version="2.0"><head><title>Sources</title></head><body><outline text="Technology"><outline text="Example" type="rss" xmlUrl="https://example.com/feed.xml" htmlUrl="https://example.com"/><outline text="Nested"><outline text="Atom" type="rss" xmlUrl="https://example.org/atom.xml"/></outline></outline></body></opml>

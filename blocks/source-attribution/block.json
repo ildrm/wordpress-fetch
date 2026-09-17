@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wordpress-fetch/source-attribution",
+  "version": "1.0.0",
+  "title": "Source Attribution",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "Displays the original article link for imported content.",
+  "textdomain": "wordpress-fetch",
+  "supports": { "html": false, "spacing": { "margin": true, "padding": true } },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

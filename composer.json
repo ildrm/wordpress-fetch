@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-fetch/wordpress-fetch",
+  "description": "Production-grade feed syndication for WordPress",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": { "php": ">=8.1" },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "szepeviktor/phpstan-wordpress": "^2.0",
+    "squizlabs/php_codesniffer": "^3.13",
+    "wp-coding-standards/wpcs": "^3.2"
+  },
+  "autoload": { "psr-4": { "WordPressFetch\\": "src/" } },
+  "scripts": {
+    "lint": "find src tests -name '*.php' -print0 | xargs -0 -n1 php -l",
+    "test": "php tests/run.php",
+    "analyse": "phpstan analyse --memory-limit=1G",
+    "phpcs": "phpcs",
+    "package": "bash scripts/package.sh"
+  },
+  "config": { "sort-packages": true, "allow-plugins": { "dealerdirect/phpcodesniffer-composer-installer": true } }
+}
